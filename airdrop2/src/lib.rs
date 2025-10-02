@@ -10,7 +10,6 @@ mod tests {
         signature::{Keypair, Signer, read_keypair_file},
         transaction::Transaction,
     };
-    use solana_sdk::
     use solana_system_interface::{instruction::transfer, program as system_program};
     use std::io::{self, BufRead};
     use std::str::FromStr;
